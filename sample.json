@@ -1,0 +1,32 @@
+{
+    "invoiceNumber": 12345,
+    "customer_name": "John Doe",
+    "billing_address": "1234 Elm Street",
+    "gstin": "AAAPL1234C",
+    "totalAmount": 1000.50,
+    "InvoiceItems": [
+      {
+        "itemName": "Widget A",
+        "Quantity": 2,
+        "Price": 100.25,
+        "Amount": 200.50
+      },
+      {
+        "itemName": "Widget B",
+        "Quantity": 4,
+        "Price": 200.00,
+        "Amount": 800.00
+      }
+    ],
+    "BillSundrys": [
+      {
+        "billSundryName": "Shipping",
+        "Amount": 50.00
+      },
+      {
+        "billSundryName": "Discount",
+        "Amount": -50.00
+      }
+    ]
+  }
+  
